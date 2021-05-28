@@ -1,6 +1,8 @@
 .slider h3,
 .slider h5,
-.special h3 {
+.special h3,
+.special ul,
+.special p {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
@@ -9,6 +11,8 @@
 .special h3,
 .menu h3,
 .contact h3,
+.special ul,
+.special p,
 footer p {
     font-weight: 600;
 }
@@ -17,6 +21,11 @@ footer p {
     max-width: 48px;
     max-height: 48px;
     margin: 5px auto;
+}
+
+.caption a {
+    margin-top: 200px;
+    font-size: 20px;
 }
 
 .about img {
@@ -37,6 +46,16 @@ footer p {
 .parallax img {
     filter: drop-shadow(6);
     opacity: 0.6 !important;
+}
+
+.special ul {
+    font-size: 27px;
+    font-style: oblique;
+}
+
+.special ul li p {
+    font-size: 18px;
+    font-style: oblique;
 }
 
 section,
