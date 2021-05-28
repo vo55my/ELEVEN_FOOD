@@ -1,0 +1,62 @@
+.slider h3,
+.slider h5,
+.special h3 {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.slider h3,
+.about h3,
+.special h3,
+.menu h3,
+.contact h3,
+footer p {
+    font-weight: 600;
+}
+
+.brand-logo img {
+    max-width: 48px;
+    max-height: 48px;
+    margin: 5px auto;
+}
+
+.about img {
+    width: 270px;
+    height: 270px;
+    margin: 20px auto;
+}
+
+.about h5 {
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
+
+.parallax-container {
+    height: 20%;
+}
+
+.parallax img {
+    filter: drop-shadow(6);
+    opacity: 0.6 !important;
+}
+
+section,
+footer {
+    padding: 1px 0;
+}
+
+.input-field label {
+    color: maroon;
+}
+
+.input-field input[type=text]:focus+label {
+    color: maroon;
+}
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid maroon;
+    box-shadow: 0 1px 0 0 maroon;
+}
+
+.input-field .prefix.active {
+    color: maroon;
+}
