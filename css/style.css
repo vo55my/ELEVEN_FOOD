@@ -1,12 +1,9 @@
-.slider h3,
-.slider h5,
 .special h3,
 .special ul,
 .special p {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
-.slider h3,
 .about h3,
 .special h3,
 .menu h3,
@@ -23,11 +20,6 @@ footer p {
     margin: 5px auto;
 }
 
-.caption a {
-    margin-top: 200px;
-    font-size: 20px;
-}
-
 .about img {
     width: 270px;
     height: 270px;
@@ -37,6 +29,8 @@ footer p {
 .about h5 {
     margin-top: 6px;
     margin-bottom: 20px;
+    font-style: oblique;
+    font-weight: 600;
 }
 
 .parallax-container {
@@ -64,18 +58,28 @@ footer {
 }
 
 .input-field label {
-    color: maroon;
+    color: black;
 }
 
 .input-field input[type=text]:focus+label {
-    color: maroon;
+    color: black;
 }
 
 .input-field input[type=text]:focus {
-    border-bottom: 1px solid maroon;
-    box-shadow: 0 1px 0 0 maroon;
+    border-bottom: 1px solid yellow;
+    box-shadow: 0 1px 0 0 yellow;
+}
+
+.input-field input[type=text].valid {
+    border-bottom: 1px solid green;
+    box-shadow: 0 1px 0 0 green;
+}
+
+.input-field input[type=text].invalid {
+    border-bottom: 1px solid red;
+    box-shadow: 0 1px 0 0 red;
 }
 
 .input-field .prefix.active {
-    color: maroon;
+    color: yellow;
 }
